@@ -65,3 +65,34 @@
 .img1 {
   margin-right: 5px;
 }
+
+.conteiner {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 16px 30px 18px;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(235, 237, 239, 1);
+  border-radius: 8px;
+  width: 76px;
+  height: 64px;
+}
+
+.text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-bottom: 3px;
+  font-size: 14px;
+}
+
+.num {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(6, 23, 44, 1);
+}
