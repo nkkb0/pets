@@ -41,11 +41,29 @@
 }
 
 .bio {
-
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .name {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 22PX;
+  font-size: 22px;
+}
+
+.breed {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(6, 23, 44, 0.6);
+}
+
+.map {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #06172C;
 }
