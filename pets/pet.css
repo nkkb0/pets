@@ -17,8 +17,9 @@
   right: 10px;
 }
 
-.bio {
+.bioo {
   display: flex;
+  justify-content: space-between;
 }
 
 .nb {
@@ -49,4 +50,18 @@
   width: 20px;
   height: 20px;
   margin: 15px 0 8px 21px;
+}
+
+.distance {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-right: 16px;
+  justify-content: center;
+}
+
+.img1 {
+  margin-right: 5px;
 }
