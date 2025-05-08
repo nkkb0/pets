@@ -64,6 +64,7 @@
 
 .img1 {
   margin-right: 5px;
+  margin-left: 5px;
 }
 
 .conteiner {
@@ -101,10 +102,48 @@
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 17px;
-  margin: 30px 18px 30px 15px;
+  margin: 30px 18px 7px 15px;
   text-align: left;
 }
 
 .ll {
  color: #FF1C7B;
+}
+
+.buttons {
+  display: flex;
+  margin: 0 16px;
+  padding: 21px 0;
+}
+
+.n1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #EBEDEF;
+  width: 133px;
+  height: 51px;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  border: 1px solid #EBEDEF;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.n2 {
+  margin-left: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FF1C7B;
+  border: 1px solid #FF1C7B;
+  color: #FFFFFF;
+  width: 221px;
+  height: 51px;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
 }
